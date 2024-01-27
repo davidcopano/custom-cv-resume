@@ -2,97 +2,112 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
-  middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  first: David
+  middle: Jesús
+  last: Copano Jiménez
+about: Hola, me llamo David Copano Jiménez. Soy desarrollador web y de aplicaciones móviles híbridas de Jerez de la Frontera, España.
+       Trabajo como desarrollador en mi empresa, mi tiempo libre suelo emplearlo en formarme en nuevas tecnologías, pasar tiempo con los míos... Me encanta aprender y explorar nuevas tecnologías.
+position: Desarrollador web y de apps híbridas
 
 birth:
-  year: 1990
-  location: New York
+  year: 1996
+  location: Jerez de la Frontera
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Xerintel Internet Technologies SL
+  position: Desarrollador web y aplicaciones móviles híbridas
+  timeperiod: Septiembre 2017 - Presente
+  description: 
+  website: https://xerintel.es/
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Trendix - Creative Apps
+  position: Desarrollador web
+  timeperiod: Marzo 2017 - Junio 2017
+  description: 
+  website: https://trendix-creative-apps.negocio.site/
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: CFGS - Desarrollo de Aplicaciones Web
+  timeperiod: 2014 - 2017
+  description: IES Francisco Romero Vargas, Cádiz
+  website: https://sites.google.com/iesromerovargas.com/romerovargas/inicio
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: ESO y Bachillerato de Ciencias
+  timeperiod: 2008 - 2014
+  description: IES Asta Regia, Cádiz
 
 # skill level goes from 0 to 100
 skills:
-- name: HTML5
+- name: HTML
   level: 99
-- name: CSS3
+- name: CSS
   level: 95
-- name: JavaScript
+- name: Javascript
   level: 97
-- name: Node.js
+- name: PHP
   level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: MySQL
+  level: 85
+- name: Angular
+  level: 86
+- name: Ionic
+  level: 92
+- name: Cordova
+  level: 88
+- name: Capacitor
+  level: 84
+- name: Typescript
+  level: 86
+- name: Git
+  level: 92
+knowledge: 
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: App Storybookmarks
+  platform: Ionic, Capacitor
+  timeperiod: Abril 2022
+  description: Gestiona tus marcadores y enlaces en una sola aplicación
+  url: https://github.com/davidcopano/app-storybookmarks
+- name: Storybookmarks
+  platform: PHP, Symfony, Bootstrap
+  timeperiod: Abril 2022
+  description: Gestiona tus marcadores y enlaces en una sola web
+  url: https://github.com/davidcopano/storybookmarks
+- name: github-actions-ionic-cordova
+  platform: YML
+  timeperiod: Abril 2021
+  description: Acción de Github para generar APKs de desarrollo o producción con Cordova
+  url: https://github.com/davidcopano/github-actions-ionic-cordova
+- name: github-actions-ionic-capacitor
+  platform: YML
+  timeperiod: Abril 2021
+  description: Acción de Github para generar APKs de desarrollo o producción con Capacitor
+  url: https://github.com/davidcopano/github-actions-ionic-capacitor
 
 # optional, not all resume templates have hobbies included
 hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+- name: Formación en nuevas tecnologías
+  iconClass: fa fa-laptop
+  url: 
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+- name: Pasar tiempo con los míos
+  iconClass: fa fa-users
+  url: 
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+# contributions:
+# - name: best-resume-ever
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+#   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: davidcopano96@gmail.com
+  phone: 617762361
+  street: Jerez de la Frontera
+  city: Cádiz
+  website: dcopano.xyz
+  github: davidcopano
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+lang: es
 `
