@@ -3,7 +3,8 @@
     <div class="banner">
       <div class="banner__fullname">{{ person.name.first }} {{ person.name.middle }} {{ person.name.last }}</div>
       <div class="banner__position">{{ person.position }}</div>
-      <div class="banner__location">{{ lang.born }} {{person.birth.year}} {{ lang.bornIn }} {{person.birth.location}}</div>
+      <div class="banner__location">{{ lang.born }} {{ person.birth.year }} {{ lang.bornIn }} {{ person.birth.location }}
+      </div>
     </div>
 
     <div class="content">
@@ -14,10 +15,7 @@
           </div>
 
           <div class="section-content">
-            <a
-              v-for="(experience, index) in person.experience"
-              :key="index"
-              class="section-content__item"
+            <a v-for="(experience, index) in person.experience" :key="index" class="section-content__item"
               :href="experience.website">
 
               <span class="section-content__header">{{ experience.position }}</span>
@@ -38,10 +36,7 @@
           </div>
 
           <div class="section-content">
-            <a
-              v-for="(education, index) in person.education"
-              class="section-content__item"
-              :key="index"
+            <a v-for="(education, index) in person.education" class="section-content__item" :key="index"
               :href="education.website">
 
               <span class="section-content__header"> {{ education.school }} </span>
@@ -52,16 +47,13 @@
           </div>
         </div>
 
-        <div
-          v-if="person.projects"
-          class="section">
+        <div v-if="person.projects" class="section">
           <div class="section-headline">
             <i class="section-headline__icon material-icons">code</i>{{ lang.projects }}
           </div>
 
           <div class="section-content-grid">
-            <a v-for="(project, index) in person.projects" :key="index"
-              class="section-content__item-grid"
+            <a v-for="(project, index) in person.projects" :key="index" class="section-content__item-grid"
               :href="project.url">
               <span class="section-content__header"> {{ project.name }} </span>
               <span class="section-content__subheader">{{ project.platform }}</span>
@@ -70,18 +62,13 @@
           </div>
         </div>
 
-        <div
-          v-if="person.contributions"
-          class="section">
+        <div v-if="person.contributions" class="section">
           <div class="section-headline">
-            <i class="section-headline__icon fa fa-heart"></i>{{lang.contributions}}
+            <i class="section-headline__icon fa fa-heart"></i>{{ lang.contributions }}
           </div>
 
           <div class="section-content-grid">
-            <a
-              v-for="(contribution, index) in person.contributions"
-              class="section-content__item-grid"
-              :key="index"
+            <a v-for="(contribution, index) in person.contributions" class="section-content__item-grid" :key="index"
               :href="contribution.url">
               <span class="section-content__header"> {{ contribution.name }} </span>
               <span class="section-content__text"> {{ contribution.description }} </span>
@@ -100,25 +87,19 @@
 
           <div class="section-content section-content--plain">
             {{ person.about }}
-            <br/>
-            <br/>
+            <br />
+            <br />
             {{ person.knowledge }}
           </div>
         </div>
 
-        <div
-          v-if="person.skills"
-          class="section">
+        <div v-if="person.skills" class="section">
           <div class="section-headline">
             {{ lang.skills }}
           </div>
 
           <div class="section-content-grid">
-            <a
-              v-for="(skill, index) in person.skills"
-              class="grid-item"
-              :key="index"
-              :href="skill.url">
+            <a v-for="(skill, index) in person.skills" class="grid-item" :key="index" :href="skill.url">
               <span class="squarred-grid-item">
                 {{ skill.name }}
               </span>
@@ -136,9 +117,7 @@
               <i class="section-link__icon material-icons">business</i>{{ person.contact.street }}
             </div>
 
-            <a
-              class="section-link"
-              :href="contactLinks.email">
+            <a class="section-link" :href="contactLinks.email">
               <i class="section-link__icon material-icons">mail</i>{{ person.contact.email }}
             </a>
 
@@ -146,31 +125,19 @@
               <i class="section-link__icon material-icons">phone</i>{{ person.contact.phone }}
             </div>
 
-            <a
-              v-if="person.contact.website"
-              class="section-link"
-              :href="person.contact.website">
+            <a v-if="person.contact.website" class="section-link" :href="person.contact.website">
               <i class="section-link__icon fa fa-globe"></i>{{ person.contact.website }}
             </a>
 
-            <a
-              v-if="person.contact.linkedin"
-              class="section-link"
-              :href="contactLinks.linkedin">
+            <a v-if="person.contact.linkedin" class="section-link" :href="contactLinks.linkedin">
               <i class="section-link__icon fa fa-linkedin"></i>{{ person.contact.linkedin }}
             </a>
 
-            <a
-              v-if="person.contact.github"
-              class="section-link"
-              :href="contactLinks.github">
+            <a v-if="person.contact.github" class="section-link" :href="contactLinks.github">
               <i class="section-link__icon fa fa-github"></i>{{ person.contact.github }}
             </a>
 
-            <a
-              v-if="person.contact.medium"
-              class="section-link"
-              :href="contactLinks.medium">
+            <a v-if="person.contact.medium" class="section-link" :href="contactLinks.medium">
               <i class="section-link__icon fa fa-medium"></i>{{ person.contact.medium }}
             </a>
           </div>
@@ -178,7 +145,7 @@
       </div>
     </div>
 
-    <img class="picture"/>
+    <img class="picture" />
   </div>
 </template>
 
@@ -192,13 +159,20 @@ export default Vue.component(name, getVueOptions(name));
 </script>
 
 <style lang="less" scoped>
-@accent-color: #34495E;
-@banner-color: #42b883;
+@accent-color: #434656;
+@banner-color: #3468C0;
 @banner-height: 120px;
 @picture-size: 120px;
 @picture-offset: 35px;
 @base-padding: 30px;
 @left-column-width: 240px;
+
+@font-face {
+  font-family: 'PoppinsRegular';
+  font-weight: normal;
+  font-style: normal;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
 
 a {
   color: inherit;
@@ -212,7 +186,7 @@ a {
 
 .resume {
   position: relative;
-  font-family:'Roboto' !important;
+  font-family: 'PoppinsRegular' !important;
   font-size: 0.9em;
 }
 
