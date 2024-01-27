@@ -194,8 +194,8 @@ a {
   position: absolute;
   top: @banner-height - @picture-offset;
   left: @left-column-width + @base-padding * 2 - @picture-size / 2;
-  height: @picture-size;
-  width: @picture-size;
+  height: 125px;
+  width: 128px;
   border-radius: 50%;
   border: 5px solid @accent-color;
   content: url('../../resume/id.jpg');
