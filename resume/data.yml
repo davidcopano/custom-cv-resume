@@ -5,9 +5,9 @@ name:
   first: David
   middle: Jesús
   last: Copano Jiménez
-about: Hola, me llamo David Copano Jiménez. Soy desarrollador web y de aplicaciones móviles híbridas de Jerez de la Frontera, España.
+about: Hola, me llamo David Copano. Soy desarrollador web y de aplicaciones móviles híbridas de Jerez de la Frontera, España.
        Trabajo como desarrollador en mi empresa, mi tiempo libre suelo emplearlo en formarme en nuevas tecnologías, pasar tiempo con los míos... Me encanta aprender y explorar nuevas tecnologías.
-position: Desarrollador web y de apps híbridas
+position: Desarrollador web y apps híbridas
 
 birth:
   year: 1996
@@ -75,11 +75,11 @@ projects:
   timeperiod: Abril 2022
   description: Gestiona tus marcadores y enlaces en una sola web
   url: https://github.com/davidcopano/storybookmarks
-- name: github-actions-ionic-cordova
-  platform: YML
-  timeperiod: Abril 2021
-  description: Acción de Github para generar APKs de desarrollo o producción con Cordova
-  url: https://github.com/davidcopano/github-actions-ionic-cordova
+# - name: github-actions-ionic-cordova
+#   platform: YML
+#   timeperiod: Abril 2021
+#   description: Acción de Github para generar APKs de desarrollo o producción con Cordova
+#   url: https://github.com/davidcopano/github-actions-ionic-cordova
 - name: github-actions-ionic-capacitor
   platform: YML
   timeperiod: Abril 2021
@@ -106,7 +106,7 @@ contact:
   phone: 617762361
   street: Jerez de la Frontera
   city: Cádiz
-  website: dcopano.xyz
+  website: https://dcopano.xyz
   github: davidcopano
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: es
