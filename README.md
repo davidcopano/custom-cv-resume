@@ -1,6 +1,6 @@
 # cv-resume-generator
 
-My customized CV/resume from [best-resume-ever]([https://](https://github.com/salomonelli/best-resume-ever))
+My customized CV/resume from [best-resume-ever]([https://github.com/salomonelli/best-resume-ever])
 
 The following is the original README from the above repository:
 
